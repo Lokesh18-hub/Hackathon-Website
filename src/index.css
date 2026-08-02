@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap');
+
+@theme {
+  --color-background-dark: #000000;
+  --color-background-light: #F4F1E8;
+  --color-panel-dark: #1D2118;
+  --color-text-dark: #000000;
+  --color-text-light: #F4F1E8;
+  --color-text-muted: #73786A;
+  --color-border: rgba(115, 120, 106, 0.28);
+  --color-accent: #C8FF2E;
+
+  --font-display: "Bebas Neue", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "Space Mono", monospace;
+}
+
+@layer base {
+  :root {
+    --color-bg-dark: #000000;
+    --color-bg-light: #F4F1E8;
+    --color-panel-dark: #1D2118;
+    --color-text-dark: #000000;
+    --color-text-light: #F4F1E8;
+    --color-text-muted: #73786A;
+    --color-border-rgba: rgba(115, 120, 106, 0.28);
+    --color-accent-hex: #C8FF2E;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background-dark text-text-light font-body antialiased overflow-x-hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+  }
+}
+
+@layer utilities {
+  .custom-cursor-active * {
+    cursor: none !important;
+  }
+  .text-fluid-hero {
+    font-size: clamp(3.4rem, 15vw, 10rem);
+    line-height: 0.86;
+  }
+  .text-fluid-section {
+    font-size: clamp(2.2rem, 8vw, 6rem);
+    line-height: 0.9;
+  }
+  .text-fluid-sub {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    line-height: 1.1;
+  }
+  .text-fluid-body {
+    font-size: clamp(1rem, 1.3vw, 1.125rem);
+    line-height: 1.5;
+  }
+  .text-fluid-mono {
+    font-size: clamp(0.72rem, 1vw, 0.85rem);
+    line-height: 1.4;
+  }
+}
