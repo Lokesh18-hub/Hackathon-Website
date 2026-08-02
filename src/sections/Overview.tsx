@@ -36,7 +36,7 @@ export const Overview: React.FC = () => {
     }
   ];
 
-  const items = reasons.map(r => r.shortTitle);
+
 
   useEffect(() => {
     const el = listRef.current;
@@ -101,7 +101,7 @@ export const Overview: React.FC = () => {
           </div>
           {/* Mobile Grid Layout (Restored) */}
           <div className="grid grid-cols-2 md:hidden gap-x-4 sm:gap-x-8 gap-y-12">
-            {reasons.map((reason, index) => (
+            {reasons.map((reason) => (
               <div key={reason.id} className="flex flex-col gap-4 border-t border-text-dark/20 pt-6">
                 <div className="flex flex-col gap-2">
                   <div className="text-accent font-display text-5xl sm:text-6xl leading-none">

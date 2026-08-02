@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDownRight, Download, Terminal } from 'lucide-react';
+import { ArrowDownRight, Download } from 'lucide-react';
 import { eventData } from '../data/event';
 
 export const Hero: React.FC = () => {
