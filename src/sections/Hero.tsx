@@ -17,6 +17,13 @@ export const Hero: React.FC = () => {
             HACK<span className="text-accent">4</span><br className="md:hidden" />
             <span className="text-transparent" style={{ WebkitTextStroke: '2px #C8FF2E' }}>IMPACT</span>
           </h1>
+          <div className="flex flex-row justify-center items-center gap-3 md:gap-8 mt-4 md:mt-6 w-full">
+            <span className="font-mono text-xs sm:text-sm md:text-base tracking-[0.2em] text-text-light uppercase font-bold">Innovate</span>
+            <span className="w-1 h-1 md:w-1.5 md:h-1.5 bg-accent rounded-full"></span>
+            <span className="font-mono text-xs sm:text-sm md:text-base tracking-[0.2em] text-text-light uppercase font-bold">Build</span>
+            <span className="w-1 h-1 md:w-1.5 md:h-1.5 bg-accent rounded-full"></span>
+            <span className="font-mono text-xs sm:text-sm md:text-base tracking-[0.2em] text-text-light uppercase font-bold">Impact</span>
+          </div>
         </div>
 
         {/* Supporting Info and Actions */}
