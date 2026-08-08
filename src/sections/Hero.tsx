@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowDownRight, Download } from 'lucide-react';
 import { eventData } from '../data/event';
+import { CountdownTimer } from '../components/CountdownTimer';
 
 export const Hero: React.FC = () => {
   return (
@@ -22,18 +23,21 @@ export const Hero: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-4 w-full mt-2 md:mt-8">
           
           <div className="md:col-span-5 flex flex-col justify-end items-center md:items-start text-center md:text-left gap-6">
-            <p className="font-body text-base md:text-lg text-text-muted max-w-md">
-              Turn ideas into working solutions, present your thinking and build with your team in one focused day at {eventData.organiser}.
-            </p>
-            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-3 w-full">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9QMlDESsZ-DLzAqYQkegnWKqrY5Vzpi6Jh6gMZNSUSOE39w/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="group bg-accent text-background-dark font-bold px-8 py-4 uppercase font-mono tracking-wide hover:bg-text-light transition-colors duration-300 flex items-center justify-center gap-3 text-sm md:text-base w-11/12 sm:w-auto">
-                Register Now
-                <ArrowDownRight size={18} className="group-hover:translate-x-1 group-hover:translate-y-1 transition-transform" />
-              </a>
-              <a href={eventData.brochureFile} className="group bg-panel-dark border border-border text-text-light font-bold px-8 py-4 uppercase font-mono tracking-wide hover:bg-border transition-colors duration-300 flex items-center justify-center gap-3 text-sm md:text-base w-11/12 sm:w-auto">
-                <Download size={18} />
-                Brochure
-              </a>
+            <div className="flex flex-col items-center sm:items-start gap-8 w-full mt-4 md:mt-0">
+              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 w-full">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9QMlDESsZ-DLzAqYQkegnWKqrY5Vzpi6Jh6gMZNSUSOE39w/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="group bg-accent text-background-dark font-bold px-6 py-3 uppercase font-mono tracking-wide hover:bg-text-light transition-colors duration-300 flex items-center justify-center gap-3 text-xs md:text-sm w-11/12 sm:w-auto rounded-md">
+                  Register Now
+                  <ArrowDownRight size={16} className="group-hover:translate-x-1 group-hover:translate-y-1 transition-transform" />
+                </a>
+                <a href={eventData.brochureFile} className="group bg-panel-dark border border-border text-text-light font-bold px-6 py-3 uppercase font-mono tracking-wide hover:bg-border transition-colors duration-300 flex items-center justify-center gap-3 text-xs md:text-sm w-11/12 sm:w-auto rounded-md">
+                  <Download size={16} />
+                  Brochure
+                </a>
+              </div>
+              
+              <div className="w-full flex justify-center">
+                <CountdownTimer targetDate="August 28, 2026 09:00:00" />
+              </div>
             </div>
           </div>
 
