@@ -234,35 +234,6 @@ const PillNav: React.FC<PillNavProps> = ({
   return (
     <div className="pill-nav-container">
       <nav className={`pill-nav ${className}`} aria-label="Primary" style={cssVars}>
-        {isRouterLink(items?.[0]?.href) ? (
-          <Link
-            className="pill-logo"
-            to={items[0].href}
-            aria-label="Home"
-            onMouseEnter={handleLogoEnter}
-            role="menuitem"
-            ref={(el: any) => {
-              logoRef.current = el;
-            }}
-          >
-            {logo && <img src={logo} alt={logoAlt} ref={logoImgRef} />}
-            {!logo && <div ref={logoImgRef} className="text-xl font-bold">H4I</div>}
-          </Link>
-        ) : (
-          <a
-            className="pill-logo"
-            href={items?.[0]?.href || '#'}
-            aria-label="Home"
-            onMouseEnter={handleLogoEnter}
-            ref={(el: any) => {
-              logoRef.current = el;
-            }}
-          >
-            {logo && <img src={logo} alt={logoAlt} ref={logoImgRef} />}
-            {!logo && <div ref={logoImgRef} className="text-xl font-bold font-display text-accent tracking-tighter">H4I</div>}
-          </a>
-        )}
-
         <div className="pill-nav-items desktop-only" ref={navItemsRef}>
           <ul className="pill-list" role="menubar">
             {items.map((item, i) => (
