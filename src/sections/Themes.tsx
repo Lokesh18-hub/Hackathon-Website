@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { motion, useTransform, useScroll } from 'motion/react';
-import { Shield, Coins, HeartPulse, Sparkles, Globe, Cpu, ArrowRight } from 'lucide-react';
+import { Sparkles, ArrowRight } from 'lucide-react';
 
 const themes = [
   {
