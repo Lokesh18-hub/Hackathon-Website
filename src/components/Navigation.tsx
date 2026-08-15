@@ -21,7 +21,7 @@ export const Navigation: React.FC = () => {
         <PillNav
           items={navLinks}
           activeHref={activeSection}
-          logo="/h4i-logo.png"
+          logo="/h4i-logo.svg"
           baseColor="#000000"
           pillColor="#C8FF2E"
           hoveredPillTextColor="#C8FF2E"
