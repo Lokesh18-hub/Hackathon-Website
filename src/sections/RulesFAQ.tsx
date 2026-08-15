@@ -24,12 +24,12 @@ export const RulesFAQ: React.FC = () => {
   const rules = [
     {
       title: "Team Size",
-      description: "Teams must consist of 2 to 4 members. No individual participation is allowed.",
+      description: "Each team can have a maximum of 6 members and must include at least 1 female member. Teams may have more than one female member.",
       image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80"
     },
     {
-      title: "Fresh Code",
-      description: "All code, design, and assets must be created during the hackathon. Pre-existing code is prohibited.",
+      title: "Fresh Code & Design",
+      description: "Participants may use a prototype to represent their product or project. The focus should be on clearly presenting the idea, solution, implementation, and overall concept through the PPT/presentation.",
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80"
     },
     {
@@ -59,7 +59,7 @@ export const RulesFAQ: React.FC = () => {
     },
     { 
       question: "What should I bring?", 
-      answer: "Bring your laptop, charger, student ID, and a water bottle. We will provide all the food, snacks, and coffee you need!" 
+      answer: "Bring your laptop, charger, required development tools, and anything else you need to work on your project." 
     },
     { 
       question: "Who owns the intellectual property?", 

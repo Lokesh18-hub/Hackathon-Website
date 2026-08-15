@@ -4,40 +4,10 @@ import { Shield, Coins, HeartPulse, Sparkles, Globe, Cpu, ArrowRight } from 'luc
 
 const themes = [
   {
-    id: "T1",
-    title: "FinTech & Web3",
-    icon: <Coins size={44} strokeWidth={1.5} />,
-    description: "Decentralized finance, smart contracts, micro-payments, and financial inclusion tools."
-  },
-  {
-    id: "T2",
-    title: "Healthcare",
-    icon: <HeartPulse size={44} strokeWidth={1.5} />,
-    description: "Telemedicine, AI diagnostics, health tracking, and hospital management solutions."
-  },
-  {
-    id: "T3",
-    title: "Cybersecurity",
-    icon: <Shield size={44} strokeWidth={1.5} />,
-    description: "Threat detection, privacy preserving tools, encryption protocols, and zero-trust architecture."
-  },
-  {
-    id: "T4",
-    title: "EdTech",
-    icon: <Globe size={44} strokeWidth={1.5} />,
-    description: "Personalized learning paths, interactive platforms, and accessibility in education."
-  },
-  {
-    id: "T5",
-    title: "AI & Automation",
-    icon: <Cpu size={44} strokeWidth={1.5} />,
-    description: "Agentic workflows, machine learning models, and robotic process automation tools."
-  },
-  {
-    id: "T6",
-    title: "Open Innovation",
+    id: "SIH",
+    title: "SIH Problem Statements",
     icon: <Sparkles size={44} strokeWidth={1.5} />,
-    description: "Any problem, any solution. Build completely outside the box with no domain constraints."
+    description: "Themes will be based on the Smart India Hackathon (SIH) problem statements that will be released."
   }
 ];
 
@@ -67,7 +37,7 @@ export const Themes: React.FC = () => {
               </h2>
             </div>
             <p className="font-body text-lg md:text-xl max-w-sm text-text-muted">
-              Choose a track that aligns with your expertise. Build solutions that push boundaries.
+              Themes will be based on the Smart India Hackathon (SIH) problem statements that will be released. Participants can select and work on a problem statement from the released SIH themes.
             </p>
           </div>
         </div>

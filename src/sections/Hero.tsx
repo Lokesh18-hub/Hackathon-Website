@@ -43,7 +43,7 @@ export const Hero: React.FC = () => {
               </div>
               
               <div className="w-full flex justify-center">
-                <CountdownTimer targetDate="August 28, 2026 09:00:00" />
+                <CountdownTimer targetDate="August 25, 2026 09:00:00" />
               </div>
             </div>
           </div>
