@@ -83,7 +83,7 @@ export const FooterCTA: React.FC = () => {
           </div>
           
           <div className="font-mono text-xs font-bold uppercase tracking-widest text-center md:text-right">
-            DESIGN & DEVELOPED BY VERITY
+            DESIGN & DEVELOPED BY LOKESH CHOUHAN
           </div>
         </div>
 
