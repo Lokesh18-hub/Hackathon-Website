@@ -26,8 +26,6 @@ interface PillNavProps {
 }
 
 const PillNav: React.FC<PillNavProps> = ({
-  logo = '',
-  logoAlt = 'Logo',
   items,
   activeHref,
   className = '',
@@ -44,8 +42,8 @@ const PillNav: React.FC<PillNavProps> = ({
   const circleRefs = useRef<(HTMLSpanElement | null)[]>([]);
   const tlRefs = useRef<(gsap.core.Timeline | null)[]>([]);
   const activeTweenRefs = useRef<(gsap.core.Tween | null)[]>([]);
-  const logoImgRef = useRef<HTMLImageElement>(null);
-  const logoTweenRef = useRef<gsap.core.Tween | null>(null);
+  // const logoImgRef = useRef<HTMLImageElement>(null);
+  // const logoTweenRef = useRef<gsap.core.Tween | null>(null);
   const mobileMenuRef = useRef<HTMLDivElement>(null);
   const navItemsRef = useRef<HTMLDivElement>(null);
   const logoRef = useRef<HTMLAnchorElement | null>(null);
@@ -162,6 +160,7 @@ const PillNav: React.FC<PillNavProps> = ({
     }) as any;
   };
 
+  /*
   const handleLogoEnter = () => {
     const img = logoImgRef.current;
     if (!img) return;
@@ -174,6 +173,7 @@ const PillNav: React.FC<PillNavProps> = ({
       overwrite: 'auto'
     });
   };
+  */
 
   const toggleMobileMenu = () => {
     const newState = !isMobileMenuOpen;
