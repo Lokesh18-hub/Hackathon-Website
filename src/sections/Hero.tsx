@@ -32,7 +32,7 @@ export const Hero: React.FC = () => {
           <div className="md:col-span-5 flex flex-col justify-end items-center md:items-start text-center md:text-left gap-6">
             <div className="flex flex-col items-center sm:items-start gap-8 w-full mt-4 md:mt-0">
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 w-full">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9QMlDESsZ-DLzAqYQkegnWKqrY5Vzpi6Jh6gMZNSUSOE39w/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="group bg-accent text-background-dark font-bold px-6 py-3 uppercase font-mono tracking-wide hover:bg-text-light transition-colors duration-300 flex items-center justify-center gap-3 text-xs md:text-sm w-11/12 sm:w-auto rounded-md">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfCxwYx6II_JT3CplVPsqhWFZSkRVqboPkwy_RyAghBkCihKw/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="group bg-accent text-background-dark font-bold px-6 py-3 uppercase font-mono tracking-wide hover:bg-text-light transition-colors duration-300 flex items-center justify-center gap-3 text-xs md:text-sm w-11/12 sm:w-auto rounded-md">
                   Register Now
                   <ArrowDownRight size={16} className="group-hover:translate-x-1 group-hover:translate-y-1 transition-transform" />
                 </a>
