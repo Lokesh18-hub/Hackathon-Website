@@ -27,7 +27,7 @@
 @media (max-width: 768px) {
   .pill-nav {
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 0 1rem;
     background: transparent;
   }
