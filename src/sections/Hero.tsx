@@ -41,9 +41,9 @@ export const Hero: React.FC = () => {
                   Brochure
                 </a>
               </div>
-              
-              <div className="w-full flex justify-center">
-                <CountdownTimer targetDate="August 25, 2026 09:00:00" />
+              <div className="w-full flex flex-col items-center justify-center gap-3 mt-4">
+                <span className="text-accent font-mono text-sm md:text-base uppercase tracking-widest font-bold text-center">Registration Closing In</span>
+                <CountdownTimer targetDate="August 25, 2026 23:59:59" />
               </div>
             </div>
           </div>
