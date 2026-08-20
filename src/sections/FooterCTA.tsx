@@ -25,7 +25,7 @@ export const FooterCTA: React.FC = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfCxwYx6II_JT3CplVPsqhWFZSkRVqboPkwy_RyAghBkCihKw/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" className="group relative bg-black text-white px-8 py-5 flex items-center justify-between sm:justify-center gap-4 overflow-hidden border border-black hover:text-accent transition-colors duration-300 w-full sm:w-auto">
+              <a href="https://docs.google.com/forms/d/1MoRRtAoaVrEWEplGEpaWaYukYvNZcWrg-11uGrvYcdQ/viewform">
                 <span className="relative z-10 font-mono uppercase font-bold text-lg">Register Now</span>
                 <ArrowUpRight className="relative z-10 w-6 h-6 group-hover:rotate-45 transition-transform duration-300" />
               </a>
