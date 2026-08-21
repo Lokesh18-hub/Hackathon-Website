@@ -43,7 +43,7 @@ export const Hero: React.FC = () => {
               </div>
               <div className="w-full flex flex-col items-center justify-center gap-3 mt-4">
                 <span className="text-accent font-mono text-sm md:text-base uppercase tracking-widest font-bold text-center">Registration Closing In</span>
-                <CountdownTimer targetDate="August 25, 2026 23:59:59" />
+                <CountdownTimer targetDate="August 22, 2026 23:59:59" />
               </div>
             </div>
           </div>
