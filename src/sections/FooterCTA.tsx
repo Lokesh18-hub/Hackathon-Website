@@ -50,12 +50,14 @@ export const FooterCTA: React.FC = () => {
               
               <div>
                 <h4 className="font-display text-2xl uppercase mb-2">Student Coordinators</h4>
-                <p className="font-mono text-sm leading-relaxed">
-                  <strong>1. Lokesh Chouhan</strong><br/>
-                  +91 63772 92024<br/>
-                  <span className="block mt-2"><strong>2. Uttam Kumar</strong></span>
-                  +91 7014499743
-                </p>
+                  <p className="font-mono text-sm leading-relaxed">
+                   <strong>1. Lokesh Chouhan</strong><br/>
+                   +91 63772 92024<br/>
+                   <span className="block mt-2"><strong>2. Uttam Kumar</strong></span>
+                   +91 7014499743<br/>
+                   <span className="block mt-2"><strong>3. Prince Rajpurohit</strong></span>
+                   +91 8949707470
+                  </p>
               </div>
             </div>
 
@@ -83,7 +85,7 @@ export const FooterCTA: React.FC = () => {
           </div>
           
           <div className="font-mono text-xs font-bold uppercase tracking-widest text-center md:text-right">
-            DESIGN & DEVELOPED BY LOKESH CHOUHAN
+            DESIGN & DEVELOPED BY LOKESH CHOUHAN & PRINCE RAJPUROHIT
           </div>
         </div>
 
