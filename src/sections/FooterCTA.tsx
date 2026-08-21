@@ -21,7 +21,7 @@ export const FooterCTA: React.FC = () => {
           {/* CTA Column */}
           <div className="flex flex-col items-start">
             <div className="inline-block bg-black text-accent font-mono text-sm px-4 py-2 uppercase mb-8">
-              Registration Closes on 25 August , 2026
+              Registration Closes on 22 August , 2026
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
