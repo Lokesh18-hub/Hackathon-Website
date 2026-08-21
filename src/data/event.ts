@@ -8,7 +8,7 @@ export const eventData = {
   registrationDeadline: "25 August",
   venue: "College Seminar Hall , 1st Floor",
   registrationLink: "https://docs.google.com/forms/d/1MoRRtAoaVrEWEplGEpaWaYukYvNZcWrg-11uGrvYcdQ/viewform",
-  brochureFile: "[BROCHURE PDF PATH]",
+  brochureFile: "/brochure.pdf",
   teamSize: "[MINIMUM–MAXIMUM MEMBERS]",
   entryFee: "[ENTRY FEE OR FREE REGISTRATION]",
   prizePool: "[PRIZE INFORMATION]",

@@ -36,9 +36,9 @@ export const Hero: React.FC = () => {
                   Register Now
                   <ArrowDownRight size={16} className="group-hover:translate-x-1 group-hover:translate-y-1 transition-transform" />
                 </a>
-                <a href={eventData.brochureFile} className="group bg-panel-dark border border-border text-text-light font-bold px-6 py-3 uppercase font-mono tracking-wide hover:bg-border transition-colors duration-300 flex items-center justify-center gap-3 text-xs md:text-sm w-11/12 sm:w-auto rounded-md">
-                  <Download size={16} />
-                  Brochure
+                <a href={eventData.brochureFile} target="_blank" rel="noopener noreferrer" className="group bg-panel-dark border border-border text-text-light font-bold px-6 py-3 uppercase font-mono tracking-wide hover:bg-border transition-colors duration-300 flex items-center justify-center gap-3 text-xs md:text-sm w-11/12 sm:w-auto rounded-md">
+                 <Download size={16} />
+                 Brochure
                 </a>
               </div>
               <div className="w-full flex flex-col items-center justify-center gap-3 mt-4">

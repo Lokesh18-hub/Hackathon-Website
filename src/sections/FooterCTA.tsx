@@ -30,10 +30,10 @@ export const FooterCTA: React.FC = () => {
                 <ArrowUpRight className="relative z-10 w-6 h-6 group-hover:rotate-45 transition-transform duration-300" />
               </a>
               
-              <button className="group relative bg-transparent text-black px-8 py-5 flex items-center justify-between sm:justify-center gap-4 border border-black hover:bg-black hover:text-white transition-colors duration-300 w-full sm:w-auto">
+              <a href="/brochure.pdf" target="_blank" rel="noopener noreferrer" className="group relative bg-transparent text-black px-8 py-5 flex items-center justify-between sm:justify-center gap-4 border border-black hover:bg-black hover:text-white transition-colors duration-300 w-full sm:w-auto">
                 <span className="font-mono uppercase font-bold text-lg">Brochure</span>
                 <Download className="w-6 h-6" />
-              </button>
+              </a>
             </div>
           </div>
 
